@@ -14,5 +14,6 @@ node "ubuntu2.salas4linux.com.br" {
 
 
 node  "dev1.salas4linux.com.br" {
-  include docker
+ # include docker
+  include rundeck
 }
